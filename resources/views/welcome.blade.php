@@ -30,6 +30,9 @@
                     <div class="p-6">
                         <div class="ml-12">
                             <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                                <ol>
+                                    <li>{{ url('/') }}</li>
+                                </ol>
                                 <strong>User APIs</strong>
                                 <ol>
                                     <li>{{ url('/api/Login') }}</li>
@@ -38,7 +41,19 @@
                                 </ol>
                                 <strong>Hospital APIs</strong>
                                 <ol>
-                                    <li>{{ url('/api/hospitals') }}</li>
+                                    <li>{{ url('/api/GetHospitals') }}</li>
+                                    <li>{{ url('/api/AddHospital') }}</li>
+                                    <li>{{ url('/api/GetHospitalById/1') }}</li>
+                                    <li>{{ url('/api/UpdHospitalById/1') }}</li>
+                                    <li>{{ url('/api/DelHospitalById/0') }}</li>
+                                </ol>
+                                <strong>Doctor APIs</strong>
+                                <ol>
+                                    <li>{{ url('/api/GetDoctors') }}</li>
+                                    <li>{{ url('/api/AddDoctor') }}</li>
+                                    <li>{{ url('/api/GetDoctorById/1') }}</li>
+                                    <li>{{ url('/api/UpdDoctorById/1') }}</li>
+                                    <li>{{ url('/api/DelDoctorById/0') }}</li>
                                 </ol>
                                
                                 
